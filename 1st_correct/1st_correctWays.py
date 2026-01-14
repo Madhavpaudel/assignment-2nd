@@ -6,6 +6,13 @@ with open("raw_text.txt", 'r') as file:
 shift1 = int(input('enter a number '))
 shift2 = int(input('enter 2nd number'))
 
+# According to the question
+#with this method encryption will work but decryption will not work
+#because during the encryption method letter in a to m will go in 
+#letter in n and z so we can't apply the same encryption metho for decryption
+
+
+
 #i have put the alphat with in range during encryption.
 # for e.g if letter in range from a-m during encyption 
 # it should not enter in n-z because it will brake down 
