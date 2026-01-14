@@ -1,5 +1,4 @@
-print('hello world')
-orginal_text =''
+
 with open("raw_text.txt", 'r') as file:
     orginal_text = file.read()
     print(orginal_text)
